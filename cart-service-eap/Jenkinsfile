@@ -16,7 +16,7 @@ node {
 
     stage 'Automated tests'
     echo 'This stage simulates automated tests'
-    sh "${mvnHome}/bin/mvn -f cart-service -B -Dmaven.test.failure.ignore clean package verify"
+    sh "${mvnHome}/bin/mvn -f cart-service-eap -B -Dmaven.test.failure.ignore clean package verify"
 
     stage 'Deploy to QA'
     echo 'Deploying to QA'
