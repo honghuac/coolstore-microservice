@@ -37,7 +37,7 @@
       <submoduleCfg class="list"/>
       <extensions/>
     </scm>
-    <scriptPath>cart-service/Jenkinsfile</scriptPath>
+    <scriptPath>cart-service-eap/Jenkinsfile</scriptPath>
   </definition>
   <triggers>
     <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.19.2">
