@@ -72,7 +72,7 @@
           "git": {
             "uri": "https://github.com/rhnordics/coolstore-microservice"
           },
-          "contextDir": "cart-service"
+          "contextDir": "cart-service-eap"
         },
         "strategy": {
           "type": "Source",
