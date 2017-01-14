@@ -16,8 +16,8 @@ public class InventoryService {
 
 	}
 	
-//	public Inventory getInventory(String itemId) {
-//		return em.find(Inventory.class,itemId);
-//	}
+	public Inventory getInventory(String itemId) {
+		return em.find(Inventory.class,itemId);
+	}
 	
 }
